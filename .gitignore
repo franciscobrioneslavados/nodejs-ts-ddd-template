@@ -41,3 +41,4 @@ test/*.js
 
 .env
 dist/
+yarn.lock
