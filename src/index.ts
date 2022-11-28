@@ -14,4 +14,4 @@ const port = process.env.PORT || 3001;
 
 app.use(userRoute);
 dbInit().then();
-app.listen(port, () => console.log(`USER, Listo por el puerto ${port}`));
+app.listen(port, () => console.log(`APP, run on PORT: ${port}`));
